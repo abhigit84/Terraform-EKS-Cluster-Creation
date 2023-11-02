@@ -7,7 +7,7 @@ variable "os_name" {
 }
 
 variable "key" {
-    default = "rtp-03"
+    default = "valaxy"
 }
 
 variable "instance-type" {
@@ -19,9 +19,18 @@ variable "vpc-cidr" {
 }
 
 variable "subnet1-cidr" {
-    default = "10.10.1.0/24"
+    default = "10.10.3.0/24"
   
 }
+variable "subnet2-cidr" {
+    default = "10.10.2.0/24"
+
+}
+
 variable "subent_az" {
     default =  "ap-south-1a"  
+}
+
+variable "subent-2_az" {
+    default =  "ap-south-1b"
 }
